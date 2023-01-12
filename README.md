@@ -1,16 +1,35 @@
-# todo_rest_api
 
-A new Flutter project.
+# Todo Application Using Flutter
 
-## Getting Started
+Here is my brand new flutter Project, which is Todo Application with Provider and Rest Api.
+Hope you guys will like this.
+Thanks for reading❤️ 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Roadmap
+- Dribble
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Dart
+- Rest Api
+- Provider(State Management)
+- Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots
+
+### Home Page
+
+![App Screenshot](https://github.com/rafipsv/Todo-X-Rest-Api-X-Provider/blob/master/Assets/Home.png?raw=true)
+
+### Add Todo Page
+
+![App Screenshot](https://github.com/rafipsv/Todo-X-Rest-Api-X-Provider/blob/master/Assets/Add.png?raw=true)
+
+### Update Todo Page
+
+![App Screenshot](https://github.com/rafipsv/Todo-X-Rest-Api-X-Provider/blob/master/Assets/Update.png?raw=true)
+
+
+
+
+
