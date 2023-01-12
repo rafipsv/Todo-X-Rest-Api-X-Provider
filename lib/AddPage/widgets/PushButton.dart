@@ -18,8 +18,8 @@ class PushButton extends StatelessWidget {
       child: Consumer<TodoProvider>(
         builder: (context, value, child) {
           return GestureDetector(
-            onTap: (() {
-              value.addTodo(titleController.text, descController.text, context);
+            onTap: (() async{
+             await value.addTodo(titleController.text, descController.text, context);
               titleController.text = "";
               descController.text = "";
             }),

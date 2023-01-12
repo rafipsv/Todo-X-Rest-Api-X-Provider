@@ -7,7 +7,8 @@ import 'package:todo_rest_api/Services/Services.dart';
 class TodoProvider with ChangeNotifier {
   List<TodoModel> todos = [];
   bool isLoad = true;
-  void addTodo(String title, String description, BuildContext context) async {
+  Future<void> addTodo(
+      String title, String description, BuildContext context) async {
     Services services = Services();
     await services.addTodo(context, title, description);
     notifyListeners();
